@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Timetable for moodle+R",
+    "version": "1.0",
+    "description": "Adds a weekly timetable to the moodle+R dashboard used at Ritsumeikan University. This extension is unofficial and is not affiliated with Moodle or Ritsumeikan University.",
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "*://lms.ritsumei.ac.jp/lib/ajax/service.php*"
+    ],
+    "background": {
+        "service_worker": "background.js",
+        "scripts": ["background.js"]
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://lms.ritsumei.ac.jp/my/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}

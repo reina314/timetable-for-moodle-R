@@ -1,0 +1,73 @@
+.calendar-grid {
+    display: grid;
+    grid-template-columns: 50px repeat(5, 1fr);
+    border: 1px solid #d0a0a0;
+}
+
+.calendar-cell {
+    border: 0.5px solid #a00000bc;
+    background: inherit;
+    min-height: 40px;
+}
+
+.weekday-header,
+.period-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    z-index: 2;
+}
+
+.weekday-header {
+    text-align: center;
+    background: #7a0000;
+    color: white;
+    padding: 2px;
+}
+
+.period-label {
+    background: #f2d6d6;
+    border: 1px solid #d0a0a0;
+}
+
+.course-block {
+    display: block;
+    position: relative;
+    z-index: 3;
+
+    padding: 8px;
+    overflow: hidden;
+
+    background: #a00000bc;
+    color: white;
+    text-decoration: none;
+
+    transition: background 0.2s ease;
+}
+
+.course-block:hover {
+    background: #920000;
+    color: white;
+    text-decoration: none;
+}
+
+.course-block:visited,
+.course-block:active {
+    color: white;
+    text-decoration: none;
+}
+
+.course-title {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.course-place,
+.course-teacher {
+    font-size: 14px;
+}
+
+.course-place {
+    margin-top: 4px;
+}
