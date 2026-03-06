@@ -29,6 +29,7 @@ This project is **unofficial** and is **not affiliated with Moodle or Ritsumeika
 
 1.  Download or clone this repository:
 
+[Releases](https://github.com/reina314/timetable-for-moodle-R/releases)
 ```bash
 git clone https://github.com/reina314/timetable-for-moodle-R.git
 ```
