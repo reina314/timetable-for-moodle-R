@@ -13,6 +13,17 @@ This project is **unofficial** and is **not affiliated with Moodle or Ritsumeika
 
 ------------------------------------------------------------------------
 
+# Screenshots
+
+These images are for illustrative purposes.
+The timetable automatically updates based on your actual course registration.
+
+| Light Mode | Dark Mode |
+| :---: | :---: |
+| <img src="images/timetable_for_light_mode.png" width="375"> | <img src="images/timetable_for_dark_mode.png" width="375"> |
+
+------------------------------------------------------------------------
+
 # Features
 
 - Displays a **weekly timetable** directly on the moodle+R dashboard
